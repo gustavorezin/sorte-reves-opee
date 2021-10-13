@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(360deg, #e203ff7c, #eb50d63d);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+    background: white;
+    max-width: 340px;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: default;
+}
+
+main h1::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 240px;
+    bottom: 3px;
+    border-radius: 8px;
+    background: linear-gradient(360deg, #e203ff7c, #b700ff);
+}
+
+#texto {
+    text-align: center;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#valor {
+    text-align: center;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.botaoSortear {
+    background-color: #b700ff;
+    border: none;
+    color: white;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.botaoSortear:hover {
+    background-color: #b700ffa4;
+}
+
+footer{
+    margin-top: 1rem;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.botaoReiniciar {
+    cursor: pointer;
+}
